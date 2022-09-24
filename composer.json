@@ -1,0 +1,14 @@
+{
+    "name": "maksimrep/repsender",
+    "type": "wordpress-plugin",
+    "description": "WP plugin for group mailing",
+    "version": "0.0.10",
+    "require": {
+        "composer/installers": "^1.6"
+    },
+    "autoload": {
+        "psr-4": {
+            "Repsender\\": "/"
+        }
+    }
+}

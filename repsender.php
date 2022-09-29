@@ -12,3 +12,8 @@
 if ( ! defined( 'ABSPATH' ) ) {
 	exit; // Don't access directly.
 };
+
+//Text Domain variable
+define('TEXTDOMAIN', 'repsender');
+
+require "admin/wp_menu.php";
